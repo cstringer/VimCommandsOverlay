@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5ECED21DC11135007ECA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED11DC11135007ECA1C /* AppDelegate.m */; };
+		AE5ECED51DC11135007ECA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED41DC11135007ECA1C /* main.m */; };
+		AE5ECED81DC11135007ECA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED71DC11135007ECA1C /* ViewController.m */; };
+		AE5ECEDA1DC11135007ECA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECED91DC11135007ECA1C /* Assets.xcassets */; };
+		AE5ECEDD1DC11135007ECA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECEDB1DC11135007ECA1C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE5ECECD1DC11135007ECA1C /* VimCommandsOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimCommandsOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5ECED01DC11135007ECA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE5ECED11DC11135007ECA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE5ECED41DC11135007ECA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE5ECED61DC11135007ECA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE5ECED71DC11135007ECA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE5ECED91DC11135007ECA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5ECEDC1DC11135007ECA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5ECEDE1DC11135007ECA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5ECECA1DC11135007ECA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5ECEC41DC11135007ECA1C = {
+			isa = PBXGroup;
+			children = (
+				AE5ECECF1DC11135007ECA1C /* VimCommandsOverlay */,
+				AE5ECECE1DC11135007ECA1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5ECECE1DC11135007ECA1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECECD1DC11135007ECA1C /* VimCommandsOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5ECECF1DC11135007ECA1C /* VimCommandsOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECED01DC11135007ECA1C /* AppDelegate.h */,
+				AE5ECED11DC11135007ECA1C /* AppDelegate.m */,
+				AE5ECED61DC11135007ECA1C /* ViewController.h */,
+				AE5ECED71DC11135007ECA1C /* ViewController.m */,
+				AE5ECED91DC11135007ECA1C /* Assets.xcassets */,
+				AE5ECEDB1DC11135007ECA1C /* Main.storyboard */,
+				AE5ECEDE1DC11135007ECA1C /* Info.plist */,
+				AE5ECED31DC11135007ECA1C /* Supporting Files */,
+			);
+			path = VimCommandsOverlay;
+			sourceTree = "<group>";
+		};
+		AE5ECED31DC11135007ECA1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECED41DC11135007ECA1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5ECECC1DC11135007ECA1C /* VimCommandsOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5ECEE11DC11135007ECA1C /* Build configuration list for PBXNativeTarget "VimCommandsOverlay" */;
+			buildPhases = (
+				AE5ECEC91DC11135007ECA1C /* Sources */,
+				AE5ECECA1DC11135007ECA1C /* Frameworks */,
+				AE5ECECB1DC11135007ECA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimCommandsOverlay;
+			productName = VimCommandsOverlay;
+			productReference = AE5ECECD1DC11135007ECA1C /* VimCommandsOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5ECEC51DC11135007ECA1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chris Stringer";
+				TargetAttributes = {
+					AE5ECECC1DC11135007ECA1C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE5ECEC81DC11135007ECA1C /* Build configuration list for PBXProject "VimCommandsOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5ECEC41DC11135007ECA1C;
+			productRefGroup = AE5ECECE1DC11135007ECA1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5ECECC1DC11135007ECA1C /* VimCommandsOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5ECECB1DC11135007ECA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5ECEDA1DC11135007ECA1C /* Assets.xcassets in Resources */,
+				AE5ECEDD1DC11135007ECA1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5ECEC91DC11135007ECA1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5ECED81DC11135007ECA1C /* ViewController.m in Sources */,
+				AE5ECED51DC11135007ECA1C /* main.m in Sources */,
+				AE5ECED21DC11135007ECA1C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE5ECEDB1DC11135007ECA1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5ECEDC1DC11135007ECA1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE5ECEDF1DC11135007ECA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE5ECEE01DC11135007ECA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE5ECEE21DC11135007ECA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VimCommandsOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-IBTC.VimCommandsOverlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE5ECEE31DC11135007ECA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VimCommandsOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-IBTC.VimCommandsOverlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5ECEC81DC11135007ECA1C /* Build configuration list for PBXProject "VimCommandsOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5ECEDF1DC11135007ECA1C /* Debug */,
+				AE5ECEE01DC11135007ECA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5ECEE11DC11135007ECA1C /* Build configuration list for PBXNativeTarget "VimCommandsOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5ECEE21DC11135007ECA1C /* Debug */,
+				AE5ECEE31DC11135007ECA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5ECEC51DC11135007ECA1C /* Project object */;
+}
