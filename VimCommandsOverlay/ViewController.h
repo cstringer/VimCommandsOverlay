@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "VcoView.h"
 
 @interface ViewController : NSViewController
 
