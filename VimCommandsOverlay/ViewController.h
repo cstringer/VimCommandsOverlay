@@ -11,6 +11,7 @@
 
 @interface ViewController : NSViewController
 
+- (void)opacityChanged;
 
 @end
 

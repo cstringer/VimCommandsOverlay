@@ -43,6 +43,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		834A7AA91DE8AE4B0088670E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECED91DC11135007ECA1C /* Assets.xcassets */,
+				AE5ECEDB1DC11135007ECA1C /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		834A7AAA1DE8AE700088670E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECED41DC11135007ECA1C /* main.m */,
+				AE5ECED01DC11135007ECA1C /* AppDelegate.h */,
+				AE5ECED11DC11135007ECA1C /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		834A7AAB1DE8AE9E0088670E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE5ECED61DC11135007ECA1C /* ViewController.h */,
+				AE5ECED71DC11135007ECA1C /* ViewController.m */,
+				AE5ECEE41DC1C225007ECA1C /* VcoView.h */,
+				AE5ECEE51DC1C225007ECA1C /* VcoView.m */,
+				AE5ECEE71DC24B3A007ECA1C /* VCOSlider.h */,
+				AE5ECEE81DC24B3A007ECA1C /* VCOSlider.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		AE5ECEC41DC11135007ECA1C = {
 			isa = PBXGroup;
 			children = (
@@ -62,17 +94,9 @@
 		AE5ECECF1DC11135007ECA1C /* VimCommandsOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				AE5ECED01DC11135007ECA1C /* AppDelegate.h */,
-				AE5ECED11DC11135007ECA1C /* AppDelegate.m */,
-				AE5ECED61DC11135007ECA1C /* ViewController.h */,
-				AE5ECED71DC11135007ECA1C /* ViewController.m */,
-				AE5ECEE41DC1C225007ECA1C /* VcoView.h */,
-				AE5ECEE51DC1C225007ECA1C /* VcoView.m */,
-				AE5ECEE71DC24B3A007ECA1C /* VCOSlider.h */,
-				AE5ECEE81DC24B3A007ECA1C /* VCOSlider.m */,
-				AE5ECED91DC11135007ECA1C /* Assets.xcassets */,
-				AE5ECEDB1DC11135007ECA1C /* Main.storyboard */,
-				AE5ECEDE1DC11135007ECA1C /* Info.plist */,
+				834A7AAA1DE8AE700088670E /* Main */,
+				834A7AAB1DE8AE9E0088670E /* Controllers */,
+				834A7AA91DE8AE4B0088670E /* UI */,
 				AE5ECED31DC11135007ECA1C /* Supporting Files */,
 			);
 			path = VimCommandsOverlay;
@@ -81,7 +105,7 @@
 		AE5ECED31DC11135007ECA1C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE5ECED41DC11135007ECA1C /* main.m */,
+				AE5ECEDE1DC11135007ECA1C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

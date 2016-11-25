@@ -14,19 +14,35 @@
 
 @implementation VCOSlider
 
-- (void)drawRect:(NSRect)dirtyRect {
-    [super drawRect:dirtyRect];
-    
-    // Drawing code here.
-}
-
-- (void)controlTextDidChange:(NSNotification *)obj
+- (id)initWithCoder:(NSCoder *)coder
 {
-    NSLog(@"%@", obj);
+    NSLog(@"%s", __func__);
+
+    self = [super initWithCoder:coder];
+    if (self != nil)
+        {
+        // set target, action for change events
+        [self setTarget:self];
+        [self setAction:@selector(sliderChanged)];
+        }
+    return self;
 }
 
-- (IBAction)sliderChanged:(id)sender {
-    NSLog(@"%@", sender);
+- (void)drawRect:(NSRect)dirtyRect
+{
+    NSLog(@"%s", __func__);
+    [super drawRect:dirtyRect];
+}
+
+- (void)sliderChanged
+{
+    NSLog(@"%s", __func__);
+
+    // relay change events to view controller
+    if (self.viewController != nil)
+        {
+        [self.viewController opacityChanged];
+        }
 }
 
 @end

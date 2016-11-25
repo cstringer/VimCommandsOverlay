@@ -10,25 +10,39 @@
 
 @implementation VcoView
 
+-(id)initWithCoder:(NSCoder *)coder
+{
+    self =[super initWithCoder:coder];
+    if (self != nil)
+        {
+        // indicate window will have transparency
+        self.window.opaque = NO;
+        }
+    return self;
+}
 
-- (void)drawRect:(NSRect)dirtyRect {
+- (void)drawRect:(NSRect)dirtyRect
+{
+    NSLog(@"%s", __func__);
+
     [super drawRect:dirtyRect];
-    
-    // Drawing code here.
-    
-    self.window.opaque = NO;
+
+    // clear background window to transparent
     NSRectFillUsingOperation(dirtyRect, NSCompositeClear);
 
-    NSColor *colorStart = [NSColor colorWithRed:0.2
+    // create gradient using stored alpha value
+    NSColor *colorStart = [NSColor colorWithRed:0
+                                          green:0
+                                           blue:0
+                                          alpha:self.backgroundAlpha];
+    NSColor *colorFinal = [NSColor colorWithRed:0.2
                                           green:0.2
                                            blue:0.3
-                                          alpha:1];
-    NSColor *colorEnd = [NSColor colorWithRed:0
-                                        green:0
-                                         blue:0
-                                        alpha:1];
+                                          alpha:self.backgroundAlpha];
     NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:colorStart
-                                                         endingColor:colorEnd];
+                                                         endingColor:colorFinal];
+
+    // fill view with gradient
     [gradient drawInRect:dirtyRect
                    angle:90];
 }

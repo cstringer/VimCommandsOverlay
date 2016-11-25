@@ -7,7 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ViewController.h"
 
 @interface VCOSlider : NSSlider  <NSControlTextEditingDelegate>
+
+@property (weak, nonatomic) ViewController *viewController;
 
 @end

@@ -11,31 +11,34 @@
 
 @interface ViewController ()
 
-@property (strong) IBOutlet VcoView *vcView;
-@property (strong) IBOutlet VCOSlider *slider;
+@property (strong) IBOutlet VcoView     *vcView;
+@property (strong) IBOutlet VCOSlider   *slider;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
+    NSLog(@"%s", __func__);
+
     [super viewDidLoad];
-    
-    //NSColor *transparent = [NSColor colorWithCalibratedWhite:1.0 alpha:0.0];
 
-    //[self.vcView setWantsLayer:YES];
-    //[self.vcView.layer setBackgroundColor:[transparent CGColor]];
-    //[self.vcView.window setOpaque:NO];
-    //[self.vcView.window setBackgroundColor:transparent];
+    // store view controller instance reference in slider
+    [self.slider setViewController:self];
 
-    // Do any additional setup after loading the view.
+    // update view opacity
+    [self opacityChanged];
 }
 
+- (void)opacityChanged
+{
+    NSLog(@"%s", __func__);
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
+    // set alpha value + update view rectangle
+    [self.vcView setBackgroundAlpha:self.slider.floatValue];
+    [self.vcView setNeedsLayout:YES];
+    [self.vcView setNeedsDisplay:YES];
 }
 
 

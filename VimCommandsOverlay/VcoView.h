@@ -10,4 +10,6 @@
 
 @interface VcoView : NSView
 
+@property           CGFloat backgroundAlpha;
+
 @end
