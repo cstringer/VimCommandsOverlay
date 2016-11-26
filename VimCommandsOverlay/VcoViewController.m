@@ -6,17 +6,17 @@
 //  Copyright © 2016 Chris Stringer. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "VcoSlider.h"
+#import "VcoViewController.h"
+#import "VcoOpacitySlider.h"
 
-@interface ViewController ()
+@interface VcoViewController ()
 
 @property (strong) IBOutlet VcoView     *vcView;
-@property (strong) IBOutlet VcoSlider   *slider;
+@property (strong) IBOutlet VcoOpacitySlider   *slider;
 
 @end
 
-@implementation ViewController
+@implementation VcoViewController
 
 - (void)viewDidLoad
 {

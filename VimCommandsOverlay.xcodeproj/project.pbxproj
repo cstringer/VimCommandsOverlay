@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE5ECED21DC11135007ECA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED11DC11135007ECA1C /* AppDelegate.m */; };
+		AE5ECED21DC11135007ECA1C /* VcoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED11DC11135007ECA1C /* VcoAppDelegate.m */; };
 		AE5ECED51DC11135007ECA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED41DC11135007ECA1C /* main.m */; };
-		AE5ECED81DC11135007ECA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED71DC11135007ECA1C /* ViewController.m */; };
+		AE5ECED81DC11135007ECA1C /* VcoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED71DC11135007ECA1C /* VcoViewController.m */; };
 		AE5ECEDA1DC11135007ECA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECED91DC11135007ECA1C /* Assets.xcassets */; };
 		AE5ECEDD1DC11135007ECA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECEDB1DC11135007ECA1C /* Main.storyboard */; };
 		AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE51DC1C225007ECA1C /* VcoView.m */; };
-		AE5ECEE91DC24B3A007ECA1C /* VcoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */; };
+		AE5ECEE91DC24B3A007ECA1C /* VcoOpacitySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE5ECECD1DC11135007ECA1C /* VimCommandsOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimCommandsOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE5ECED01DC11135007ECA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE5ECED11DC11135007ECA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE5ECED01DC11135007ECA1C /* VcoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcoAppDelegate.h; sourceTree = "<group>"; };
+		AE5ECED11DC11135007ECA1C /* VcoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcoAppDelegate.m; sourceTree = "<group>"; };
 		AE5ECED41DC11135007ECA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE5ECED61DC11135007ECA1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE5ECED71DC11135007ECA1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE5ECED61DC11135007ECA1C /* VcoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VcoViewController.h; sourceTree = "<group>"; };
+		AE5ECED71DC11135007ECA1C /* VcoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VcoViewController.m; sourceTree = "<group>"; };
 		AE5ECED91DC11135007ECA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5ECEDC1DC11135007ECA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5ECEDE1DC11135007ECA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5ECEE41DC1C225007ECA1C /* VcoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoView.h; sourceTree = "<group>"; };
 		AE5ECEE51DC1C225007ECA1C /* VcoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoView.m; sourceTree = "<group>"; };
-		AE5ECEE71DC24B3A007ECA1C /* VcoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoSlider.h; sourceTree = "<group>"; };
-		AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoSlider.m; sourceTree = "<group>"; };
+		AE5ECEE71DC24B3A007ECA1C /* VcoOpacitySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoOpacitySlider.h; sourceTree = "<group>"; };
+		AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoOpacitySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				AE5ECED41DC11135007ECA1C /* main.m */,
-				AE5ECED01DC11135007ECA1C /* AppDelegate.h */,
-				AE5ECED11DC11135007ECA1C /* AppDelegate.m */,
+				AE5ECED01DC11135007ECA1C /* VcoAppDelegate.h */,
+				AE5ECED11DC11135007ECA1C /* VcoAppDelegate.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -65,12 +65,12 @@
 		834A7AAB1DE8AE9E0088670E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AE5ECED61DC11135007ECA1C /* ViewController.h */,
-				AE5ECED71DC11135007ECA1C /* ViewController.m */,
+				AE5ECED61DC11135007ECA1C /* VcoViewController.h */,
+				AE5ECED71DC11135007ECA1C /* VcoViewController.m */,
 				AE5ECEE41DC1C225007ECA1C /* VcoView.h */,
 				AE5ECEE51DC1C225007ECA1C /* VcoView.m */,
-				AE5ECEE71DC24B3A007ECA1C /* VcoSlider.h */,
-				AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */,
+				AE5ECEE71DC24B3A007ECA1C /* VcoOpacitySlider.h */,
+				AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 		AE5ECEC51DC11135007ECA1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = VCO;
+				CLASSPREFIX = Vco;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Chris Stringer";
 				TargetAttributes = {
@@ -181,11 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5ECED81DC11135007ECA1C /* ViewController.m in Sources */,
+				AE5ECED81DC11135007ECA1C /* VcoViewController.m in Sources */,
 				AE5ECED51DC11135007ECA1C /* main.m in Sources */,
-				AE5ECED21DC11135007ECA1C /* AppDelegate.m in Sources */,
+				AE5ECED21DC11135007ECA1C /* VcoAppDelegate.m in Sources */,
 				AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */,
-				AE5ECEE91DC24B3A007ECA1C /* VcoSlider.m in Sources */,
+				AE5ECEE91DC24B3A007ECA1C /* VcoOpacitySlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

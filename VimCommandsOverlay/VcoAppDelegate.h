@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  VimCommandsOverlay
 //
 //  Created by Chris Stringer on 10-26-16.
@@ -7,11 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "VcoView.h"
 
-@interface ViewController : NSViewController
+@interface VcoAppDelegate : NSObject <NSApplicationDelegate>
 
-- (void)opacityChanged;
 
 @end
 

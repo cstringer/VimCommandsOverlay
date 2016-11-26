@@ -6,13 +6,13 @@
 //  Copyright © 2016 Chris Stringer. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VcoAppDelegate.h"
 
-@interface AppDelegate ()
+@interface VcoAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation VcoAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application

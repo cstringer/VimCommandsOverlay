@@ -6,13 +6,13 @@
 //  Copyright © 2016 Chris Stringer. All rights reserved.
 //
 
-#import "VcoSlider.h"
+#import "VcoOpacitySlider.h"
 
-@interface VcoSlider ()
+@interface VcoOpacitySlider ()
 
 @end
 
-@implementation VcoSlider
+@implementation VcoOpacitySlider
 
 - (id)initWithCoder:(NSCoder *)coder
 {
@@ -26,12 +26,6 @@
         [self setAction:@selector(sliderChanged)];
         }
     return self;
-}
-
-- (void)drawRect:(NSRect)dirtyRect
-{
-    NSLog(@"%s", __func__);
-    [super drawRect:dirtyRect];
 }
 
 - (void)sliderChanged

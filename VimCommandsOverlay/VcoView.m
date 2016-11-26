@@ -10,17 +10,6 @@
 
 @implementation VcoView
 
--(id)initWithCoder:(NSCoder *)coder
-{
-    self =[super initWithCoder:coder];
-    if (self != nil)
-        {
-        // indicate window will have transparency
-        self.window.opaque = NO;
-        }
-    return self;
-}
-
 - (void)drawRect:(NSRect)dirtyRect
 {
     NSLog(@"%s", __func__);
@@ -28,6 +17,7 @@
     [super drawRect:dirtyRect];
 
     // clear background window to transparent
+    self.window.opaque = NO;
     NSRectFillUsingOperation(dirtyRect, NSCompositeClear);
 
     // create gradient using stored alpha value
