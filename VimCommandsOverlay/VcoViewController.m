@@ -24,6 +24,8 @@
 
     [super viewDidLoad];
 
+    self.mainView.window.delegate = self;
+
     // store view controller instance reference in slider
     [self.opacitySlider setViewController:self];
 
@@ -52,5 +54,21 @@
     [self.mainView setNeedsDisplay:YES];
 }
 
+- (NSSize)windowWillResize:(NSWindow *)sender toSize:(NSSize)frameSize
+{
+    NSLog(@"%s", __func__);
+    NSLog(@" toSize: %f x %f", frameSize.width, frameSize.height);
+
+    NSSize newFrameSize;
+    newFrameSize.width = MAX(frameSize.width, VVC_MIN_WINDOW_WIDTH);
+    newFrameSize.height = MAX(frameSize.height, VVC_MIN_WINDOW_HEIGHT);
+
+    return newFrameSize;
+}
+
+- (void)windowWillStartLiveResize:(NSNotification *)notification
+{
+    NSLog(@"%s", __func__);
+}
 
 @end

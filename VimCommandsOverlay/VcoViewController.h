@@ -12,7 +12,10 @@
 #define VVC_UD_KEY_BG_OPACITY   @"backgroundOpacity"
 #define VVC_DEF_BG_OPACITY      0.75
 
-@interface VcoViewController : NSViewController
+#define VVC_MIN_WINDOW_WIDTH    295
+#define VVC_MIN_WINDOW_HEIGHT   200
+
+@interface VcoViewController : NSViewController <NSWindowDelegate>
 
 /*! Stores opacity slider value in user defaults, and updates main view. */
 - (void)opacityChanged;
