@@ -10,6 +10,7 @@
 
 @interface VcoMainView : NSView
 
+/*! Opacity (alpha) value for the window background gradient. */
 @property   CGFloat backgroundAlpha;
 
 @end

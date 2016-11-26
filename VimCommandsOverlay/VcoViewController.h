@@ -14,6 +14,7 @@
 
 @interface VcoViewController : NSViewController
 
+/*! Stores opacity slider value in user defaults, and updates main view. */
 - (void)opacityChanged;
 
 @end

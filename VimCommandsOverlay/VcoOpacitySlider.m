@@ -28,11 +28,11 @@
     return self;
 }
 
+/*! Relay change events to the main view controller. */
 - (void)sliderChanged
 {
     NSLog(@"%s", __func__);
 
-    // relay change events to view controller
     if (self.viewController != nil)
         {
         [self.viewController opacityChanged];

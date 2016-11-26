@@ -16,7 +16,6 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-
     /* Initialize NSUserDefaults: register initial values */
     if ([NSUserDefaults standardUserDefaults] == nil)
         {

@@ -11,6 +11,7 @@
 
 @interface VcoOpacitySlider : NSSlider  <NSControlTextEditingDelegate>
 
+/*! Reference to the main view controller. */
 @property (weak, nonatomic) VcoViewController *viewController;
 
 @end
