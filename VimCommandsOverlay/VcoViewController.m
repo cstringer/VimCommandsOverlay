@@ -7,6 +7,7 @@
 //
 
 #import "VcoViewController.h"
+#import "VcoMainView.h"
 #import "VcoOpacitySlider.h"
 
 @interface VcoViewController ()
@@ -24,9 +25,8 @@
 
     [super viewDidLoad];
 
-    self.mainView.window.delegate = self;
-
-    // store view controller instance reference in slider
+    // store view controller instance references
+    [self.mainView setViewController:self];
     [self.opacitySlider setViewController:self];
 
     // set opacity slider to user default value
@@ -34,6 +34,15 @@
 
     // update view opacity
     [self opacityChanged];
+
+    /*
+    NSRect frameRect = NSMakeRect(0, 0,
+                                  [[NSUserDefaults standardUserDefaults] floatForKey:VVC_UD_KEY_WIN_WIDTH],
+                                  [[NSUserDefaults standardUserDefaults] floatForKey:VVC_UD_KEY_WIN_HEIGHT]
+                                  );
+    [self.mainView.window setFrame:frameRect
+                           display:YES];
+     */
 }
 
 - (void)opacityChanged
@@ -54,21 +63,18 @@
     [self.mainView setNeedsDisplay:YES];
 }
 
-- (NSSize)windowWillResize:(NSWindow *)sender toSize:(NSSize)frameSize
+- (void)setBackgroundOpacity:(CGFloat)opacity useRelative:(BOOL)relative
 {
     NSLog(@"%s", __func__);
-    NSLog(@" toSize: %f x %f", frameSize.width, frameSize.height);
-
-    NSSize newFrameSize;
-    newFrameSize.width = MAX(frameSize.width, VVC_MIN_WINDOW_WIDTH);
-    newFrameSize.height = MAX(frameSize.height, VVC_MIN_WINDOW_HEIGHT);
-
-    return newFrameSize;
-}
-
-- (void)windowWillStartLiveResize:(NSNotification *)notification
-{
-    NSLog(@"%s", __func__);
+    if (relative == YES)
+        {
+        self.opacitySlider.floatValue += opacity;
+        }
+    else
+        {
+        self.opacitySlider.floatValue = opacity;
+        }
+    [self opacityChanged];
 }
 
 @end
