@@ -12,7 +12,7 @@
 		AE5ECED81DC11135007ECA1C /* VcoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECED71DC11135007ECA1C /* VcoViewController.m */; };
 		AE5ECEDA1DC11135007ECA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECED91DC11135007ECA1C /* Assets.xcassets */; };
 		AE5ECEDD1DC11135007ECA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECEDB1DC11135007ECA1C /* Main.storyboard */; };
-		AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE51DC1C225007ECA1C /* VcoView.m */; };
+		AE5ECEE61DC1C225007ECA1C /* VcoMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE51DC1C225007ECA1C /* VcoMainView.m */; };
 		AE5ECEE91DC24B3A007ECA1C /* VcoOpacitySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */; };
 /* End PBXBuildFile section */
 
@@ -26,8 +26,8 @@
 		AE5ECED91DC11135007ECA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5ECEDC1DC11135007ECA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5ECEDE1DC11135007ECA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE5ECEE41DC1C225007ECA1C /* VcoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoView.h; sourceTree = "<group>"; };
-		AE5ECEE51DC1C225007ECA1C /* VcoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoView.m; sourceTree = "<group>"; };
+		AE5ECEE41DC1C225007ECA1C /* VcoMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoMainView.h; sourceTree = "<group>"; };
+		AE5ECEE51DC1C225007ECA1C /* VcoMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoMainView.m; sourceTree = "<group>"; };
 		AE5ECEE71DC24B3A007ECA1C /* VcoOpacitySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoOpacitySlider.h; sourceTree = "<group>"; };
 		AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoOpacitySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +67,8 @@
 			children = (
 				AE5ECED61DC11135007ECA1C /* VcoViewController.h */,
 				AE5ECED71DC11135007ECA1C /* VcoViewController.m */,
-				AE5ECEE41DC1C225007ECA1C /* VcoView.h */,
-				AE5ECEE51DC1C225007ECA1C /* VcoView.m */,
+				AE5ECEE41DC1C225007ECA1C /* VcoMainView.h */,
+				AE5ECEE51DC1C225007ECA1C /* VcoMainView.m */,
 				AE5ECEE71DC24B3A007ECA1C /* VcoOpacitySlider.h */,
 				AE5ECEE81DC24B3A007ECA1C /* VcoOpacitySlider.m */,
 			);
@@ -184,7 +184,7 @@
 				AE5ECED81DC11135007ECA1C /* VcoViewController.m in Sources */,
 				AE5ECED51DC11135007ECA1C /* main.m in Sources */,
 				AE5ECED21DC11135007ECA1C /* VcoAppDelegate.m in Sources */,
-				AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */,
+				AE5ECEE61DC1C225007ECA1C /* VcoMainView.m in Sources */,
 				AE5ECEE91DC24B3A007ECA1C /* VcoOpacitySlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

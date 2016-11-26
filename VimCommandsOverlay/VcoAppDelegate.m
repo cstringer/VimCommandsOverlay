@@ -14,15 +14,26 @@
 
 @implementation VcoAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+
+    /* Initialize NSUserDefaults: register initial values */
+    if ([NSUserDefaults standardUserDefaults] == nil)
+        {
+        NSDictionary *dictDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+                                      [NSNumber numberWithFloat:VVC_DEF_BG_OPACITY], VVC_UD_KEY_BG_OPACITY,
+                                      nil];
+        [[NSUserDefaults standardUserDefaults] registerDefaults:dictDefaults];
+        }
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
     // Insert code here to tear down your application
 }
 
-- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
     return YES;
 }
 

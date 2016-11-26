@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "VcoViewController.h"
 
 @interface VcoAppDelegate : NSObject <NSApplicationDelegate>
 

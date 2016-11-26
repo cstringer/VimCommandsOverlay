@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface VcoView : NSView
+@interface VcoMainView : NSView
 
-@property           CGFloat backgroundAlpha;
+@property   CGFloat backgroundAlpha;
 
 @end

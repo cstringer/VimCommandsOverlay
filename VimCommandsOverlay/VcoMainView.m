@@ -6,9 +6,9 @@
 //  Copyright © 2016 Chris Stringer. All rights reserved.
 //
 
-#import "VcoView.h"
+#import "VcoMainView.h"
 
-@implementation VcoView
+@implementation VcoMainView
 
 - (void)drawRect:(NSRect)dirtyRect
 {
@@ -20,7 +20,7 @@
     self.window.opaque = NO;
     NSRectFillUsingOperation(dirtyRect, NSCompositeClear);
 
-    // create gradient using stored alpha value
+    // create gradient using alpha value
     NSColor *colorStart = [NSColor colorWithRed:0
                                           green:0
                                            blue:0

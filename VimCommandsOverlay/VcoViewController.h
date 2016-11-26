@@ -7,7 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "VcoView.h"
+#import "VcoMainView.h"
+
+#define VVC_UD_KEY_BG_OPACITY   @"backgroundOpacity"
+#define VVC_DEF_BG_OPACITY      0.75
 
 @interface VcoViewController : NSViewController
 
