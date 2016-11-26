@@ -13,7 +13,7 @@
 		AE5ECEDA1DC11135007ECA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECED91DC11135007ECA1C /* Assets.xcassets */; };
 		AE5ECEDD1DC11135007ECA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5ECEDB1DC11135007ECA1C /* Main.storyboard */; };
 		AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE51DC1C225007ECA1C /* VcoView.m */; };
-		AE5ECEE91DC24B3A007ECA1C /* VCOSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE81DC24B3A007ECA1C /* VCOSlider.m */; };
+		AE5ECEE91DC24B3A007ECA1C /* VcoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		AE5ECEDE1DC11135007ECA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5ECEE41DC1C225007ECA1C /* VcoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoView.h; sourceTree = "<group>"; };
 		AE5ECEE51DC1C225007ECA1C /* VcoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoView.m; sourceTree = "<group>"; };
-		AE5ECEE71DC24B3A007ECA1C /* VCOSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCOSlider.h; sourceTree = "<group>"; };
-		AE5ECEE81DC24B3A007ECA1C /* VCOSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCOSlider.m; sourceTree = "<group>"; };
+		AE5ECEE71DC24B3A007ECA1C /* VcoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VcoSlider.h; sourceTree = "<group>"; };
+		AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VcoSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				AE5ECED71DC11135007ECA1C /* ViewController.m */,
 				AE5ECEE41DC1C225007ECA1C /* VcoView.h */,
 				AE5ECEE51DC1C225007ECA1C /* VcoView.m */,
-				AE5ECEE71DC24B3A007ECA1C /* VCOSlider.h */,
-				AE5ECEE81DC24B3A007ECA1C /* VCOSlider.m */,
+				AE5ECEE71DC24B3A007ECA1C /* VcoSlider.h */,
+				AE5ECEE81DC24B3A007ECA1C /* VcoSlider.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 				AE5ECED51DC11135007ECA1C /* main.m in Sources */,
 				AE5ECED21DC11135007ECA1C /* AppDelegate.m in Sources */,
 				AE5ECEE61DC1C225007ECA1C /* VcoView.m in Sources */,
-				AE5ECEE91DC24B3A007ECA1C /* VCOSlider.m in Sources */,
+				AE5ECEE91DC24B3A007ECA1C /* VcoSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

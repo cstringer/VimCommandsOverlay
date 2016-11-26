@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "VCOSlider.h"
+#import "VcoSlider.h"
 
 @interface ViewController ()
 
 @property (strong) IBOutlet VcoView     *vcView;
-@property (strong) IBOutlet VCOSlider   *slider;
+@property (strong) IBOutlet VcoSlider   *slider;
 
 @end
 

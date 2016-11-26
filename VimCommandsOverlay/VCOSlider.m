@@ -6,13 +6,13 @@
 //  Copyright © 2016 Chris Stringer. All rights reserved.
 //
 
-#import "VCOSlider.h"
+#import "VcoSlider.h"
 
-@interface VCOSlider ()
+@interface VcoSlider ()
 
 @end
 
-@implementation VCOSlider
+@implementation VcoSlider
 
 - (id)initWithCoder:(NSCoder *)coder
 {
