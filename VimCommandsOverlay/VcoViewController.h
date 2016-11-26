@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VcoViewController.h
 //  VimCommandsOverlay
 //
 //  Created by Chris Stringer on 10-26-16.

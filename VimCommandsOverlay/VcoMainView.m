@@ -1,5 +1,5 @@
 //
-//  VcoView.m
+//  VcoMainView.m
 //  VimCommandsOverlay
 //
 //  Created by Chris Stringer on 10-27-16.
